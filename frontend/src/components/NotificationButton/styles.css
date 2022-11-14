@@ -1,0 +1,15 @@
+.ms-red-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #ce4937;
+    background: rgba(206, 73, 55, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ms-red-btn img {
+    width: 22px;
+}
