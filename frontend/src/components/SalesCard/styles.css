@@ -1,0 +1,96 @@
+.ms-card {
+  background-color: rgba(0, 137, 226, 0.2);
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+
+.ms-sales-title {
+  color: #ce4937;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ms-form-control {
+  width: 100%;
+  color: #9aaabe;
+  height: 46px;
+  border: 1px #ce4937 solid;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+.ms-form-control-container {
+  margin-bottom: 16px;
+  max-width: 300px;
+}
+
+.ms-sales-table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+}
+
+.ms-sales-table thead {
+  height: 55px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2f33;
+}
+
+.ms-sales-table tbody {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1f2f33;
+}
+
+.ms-sales-table tbody tr {
+  height: 74px;
+  border-top: 1px solid #00b2ea;
+}
+
+.ms-sales-table tbody tr:hover > td {
+  background-color: #00b2ea;
+}
+
+.ms-sales-table tbody tr:nth-child(odd) {
+  background-color: #b0e6f5;
+}
+
+.ms-red-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.show576 {
+  display: none;
+}
+
+.show992 {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .show576 {
+    display: table-cell;
+  }
+
+  .ms-card {
+    padding: 35px;
+  }
+
+  .ms-sales-table tbody tr {
+    height: 55px;
+  }
+
+  .ms-sales-table tbody {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  .show992 {
+    display: table-cell;
+  }
+}

@@ -7,11 +7,6 @@
   font-family: "Roboto Slab", sans-serif;
 }
 
-body,
-html {
-  /* background-color: #1f2f33; */
-}
-
 a,
 a:visited {
   color: unset;
@@ -21,4 +16,15 @@ a:visited {
 a:hover {
   font-weight: 700;
   box-shadow: #84b6f4 0px 1px;
+}
+
+.ms-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#sales {
+    padding: 40px 10px;
+
 }
