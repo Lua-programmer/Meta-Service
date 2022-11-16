@@ -1,10 +1,17 @@
 package com.luaprogrammer.metaservice.entities;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 
+@Data
 @Entity
 @Table(name = "tb_sales")
+@AllArgsConstructor
+@NoArgsConstructor
 public class Sale {
 
     @Id
