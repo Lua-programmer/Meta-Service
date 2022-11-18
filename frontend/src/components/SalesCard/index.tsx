@@ -77,7 +77,7 @@ function SalesCard() {
                                         <td>
                                             <div className="ms-red-btn-container">
                                                 <div className="ms-red-btn">
-                                                    <NotificationButton />
+                                                    <NotificationButton saleId={s.id} />
                                                 </div>
                                             </div>
                                         </td>
